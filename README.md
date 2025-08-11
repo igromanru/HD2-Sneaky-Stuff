@@ -1,6 +1,6 @@
 # Helldivers 2 Sneaky Stuff by Igromanru
 
-![Preview](https://i.imgur.com/KMOaqg9.png)
+![Preview](https://i.imgur.com/tURMm9h.png)
 
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
@@ -16,12 +16,13 @@ I've left out Medals and Requisition Slips in Resupply Drop, since it's much fas
 ### Sneaky
 - Pseudo Infinite Health
 - Pseudo Infinite Stamina
+- Speedhack
 - Collect X Samples
 - Instant Complete Mission (host only)
 - Instant Shuttle (host only)
 
 ### Video showcase
-~WIP~
+[![Showcase](https://img.youtube.com/vi/YSuHrW66k4E/0.jpg)](https://www.youtube.com/watch?v=YSuHrW66k4E)
 
 ## How to use
 Before you start, you have to unzip the files from the zip archive.
@@ -60,11 +61,16 @@ As long you don't spam the features none stop, the chance that GG catches a code
 
 ### Pseudo Infinite Health
 Pseudo Infinite Health will change your health to 9999 (maximum what the game allows), **if your health value changes while the feature is active**.
-As long the damage won't one shot you, you can take any amount of damage or heal yourself (if you're not full HP).
+As long the damage won't one shot you, you can take any amount of damage or heal yourself (if you're not full HP).  
+With Ctrl+(hotkey) health can be "restored" to 200. Same rules apply, you have to take damage while it's active.
 
 ### Pseudo Infinite Stamina
 Pseudo Infinite Stamina changes Stamina value to 9999 and consumption multiplier to a fraction, which will make you consume a very little Stamina after the feature has unpatched itself. The effect should last until you die, but I can't remember all the nuances.
 It also affects Stamina regeneration, so you might need to use Stims and reactivate at some point.
+
+### Speedhack
+Sets your movement speed to 3x. Works on the ship as well.  
+You have to start moving while the hook is active.
 
 ### Collect X Samples
 Collect X Samples is currently set to 98, in the time while the feature is active, you've to pick up any sample, and you will receive 98 of it.
