@@ -30,7 +30,6 @@ Both **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** has
 If your AntiVirus doesn’t like it, disable it and add the directory where you unzipped the files to the exclusions list. It’s common for AV software to detect injectors.
 
 ### Inject Automatically
-
 1. Load the game until you're in your ship
 2. Execute the **HD2-Sneaky-Stuff-Injector.exe** (you must have administrator rights on the Windows account)
 3. If the injection was successful, and you see the console window of Sneaky Stuff, you can close the window of the injector.
@@ -38,10 +37,19 @@ If your AntiVirus doesn’t like it, disable it and add the directory where you 
 5. "Undetected" features can be disabled manually by pressing CTRL+[their assigned hotkey]. "Sneaky" disable themselves automatically. (See "*Sneaky" features and how to use them* section)
 6. (optional) Move the "HD2 Sneaky Stuff" console window to a second monitor to see what happens there while you're playing.
 
-
 ### Inject Manually (alternative)
 You can use any DLL injector that works for you to inject the **Helldivers-2-Sneaky-Stuff.dll**.
 If you want to be extra sneaky, use a manual map injector or a driver based manual map injector.
+
+### Configuration file
+In the **Settings.toml** configuration file, you can change the single-key hotkeys assigned to each feature. To disable certain features, you still need to use the hard-coded modifier CTRL + (hotkey).
+Hotkey values are Virtual-Key Codes, and can be assigned as either decimal or hex-decimal.  
+e.g.: `InfiniteHealthKey = 0x61` is the **Numpad 1** key.  
+If you have a non-US keyboard layout (e.g. Russian, German, Chinese), just use google to find corresponding Virtual-Key Codes.  
+
+As a bonus, you can change unhook delay times for certain features in the settings file as well.  
+Values are in milliseconds (1 sec = 1000 ms).  
+Increase them at your own risk. You can play around with them, since the worst thing that can happen is that GG closes your game, but anything over 6 sec increases the chance of getting caught exponentially.
 
 ## "Undetected" features description
 "Undetected" features are like the name says, undetected. They can be activated and deactivated/restored at any time.
