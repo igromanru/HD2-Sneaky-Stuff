@@ -1,17 +1,17 @@
 # Helldivers 2 Sneaky Stuff by Igromanru
 
-![Preview](https://i.imgur.com/tURMm9h.png)
+![Preview](https://i.imgur.com/8hfTsoB.png)
 
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
 It's a dll, that has to be injected into the game and all features are controlled by hotkeys.  
 It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" features can be active all the time, while the "Sneaky" features will disable themselves to avoid being caught by GameGuard. (Read the AntiCheat section for details)  
-I've left out Medals and Requisition Slips in Resupply Drop, since it's much faster to instant finish missions to get them.
 
 ## Features
 ### Undetected
 - Infinite Stratagems
 - Super Credits in Resupply Pod
+- Medals in Resupply Pod
 
 ### Sneaky
 - Pseudo Infinite Health
@@ -47,51 +47,58 @@ Hotkey values are Virtual-Key Codes, and can be assigned as either decimal or he
 e.g.: `InfiniteHealthKey = 0x61` is the **Numpad 1** key.  
 If you have a non-US keyboard layout (e.g. Russian, German, Chinese), just use google to find corresponding Virtual-Key Codes.  
 
-As a bonus, you can change unhook delay times for certain features in the settings file as well.  
+Some features like "Collect X Samples" or "Speedhack" have also modifieable values.  
+
+You can also change the unhook delay times for certain features in the settings file.  
 Values are in milliseconds (1 sec = 1000 ms).  
 Increase them at your own risk. You can play around with them, since the worst thing that can happen is that GG closes your game, but anything over 6 sec increases the chance of getting caught exponentially.
 
 ## "Undetected" features description
 "Undetected" features are like the name says, undetected. They can be activated and deactivated/restored at any time.
 
-### Infinite Stratagems
+### Infinite Stratagems (Default Hotkey: Numpad 7)
 Prevents Stratagems to go into cooldown and decrease in quantity. Works only for your Stratagems. All others are visual only.
 For server sided stratagems like Resupply or SEAF Artillery, it works only if you're the host.
 
-### Super Credits in Resupply Pod
+### Super Credits in Resupply Pod (Default Hotkey: F3)
 Replaces one of the slot in the Resupply Pod with a stack of Super Credits.
 See the "Resupply Drops Information" section for more details.
+
+### Medals in Resupply Pod (Default Hotkey: F4)
+Same as **Super Credits in Resupply Pod** but replaces third slot with Medals.
 
 ## "Sneaky" features and how to use them (Important information!)
 GameGuard runs an integrity check in a random interval, I don't know exact timing, but it happens like once in a minute.
 The whole idea behind the "Sneaky" features is to patch code for a short period of time to reduce the chance of being caught to minimum.
 As long you don't spam the features none stop, the chance that GG catches a code change and closes your game are very small.
 
-### Pseudo Infinite Health
+### Pseudo Infinite Health (Default Hotkey: Numpad 1)
 Pseudo Infinite Health will change your health to 9999 (maximum what the game allows), **if your health value changes while the feature is active**.
 As long the damage won't one shot you, you can take any amount of damage or heal yourself (if you're not full HP).  
 With Ctrl+(hotkey) health can be "restored" to 200. Same rules apply, you have to take damage while it's active.
 
-### Pseudo Infinite Stamina
+### Pseudo Infinite Stamina (Default Hotkey: Numpad 2)
 Pseudo Infinite Stamina changes Stamina value to 9999 and consumption multiplier to a fraction, which will make you consume a very little Stamina after the feature has unpatched itself. The effect should last until you die, but I can't remember all the nuances.
 It also affects Stamina regeneration, so you might need to use Stims and reactivate at some point.
 
-### Speedhack
-Sets your movement speed to 3x. Works on the ship as well.  
-You have to start moving while the hook is active.
+### Speedhack (Default Hotkey: Numpad 3)
+Sets your movement speed multiplier. (Default set to 3x) Works on the ship as well.  
+You have to start moving while the hook is active.  
+If you're the host, it affects enemies as well, if they move while the hook is active.
 
-### Collect X Samples
-Collect X Samples is currently set to 98, in the time while the feature is active, you've to pick up any sample, and you will receive 98 of it.
-**Important:** Sample limit per game is 99! (100 but you don't see it)
+### Collect X Samples (Default Hotkey: Numpad 4)
+Collect X Samples is default set to 98, in the time while the feature is active, you've to pick up any sample, and you will receive 98 of it.  
+**Important:** Sample limit per game is 99! (100 but you don't see it)  
 If the team together has over 99 during the extraction, none will count.
-All type of samples count to the same limit! While farming, only farm one type of sample per mission! Take 99 of one type and extract.
+All type of samples count to the same limit!  
+You can also set the value to 33 in the settings and pick up one of each sample type, if you want.  
 
-### Instant Complete Mission (host only)
+### Instant Complete Mission (host only) (Default Hotkey: Numpad 8)
 Works only, if you're the host! Does exactly what it says.
 It will mark all primary missions as completed and will allow you to extract.
 Other players will see the mission as "failed", but they will still get the rewards.
 
-### Instant Shuttle (host only)
+### Instant Shuttle (host only) (Default Hotkey: Numpad 9)
 Will skip the wait time for the Pelican-1 to arrive.
 The feature has to be active while you finish typing the code into the extraction beacon. You can simply pretype the code until the last arrow, activate the feature and press the last arrow to finish.
 
@@ -154,8 +161,8 @@ You're not only risking your account, but also drawing attention to the exploit!
 ---
 
 ### Log file
-In case something happens to the console window or the game closes/crashes, you can find the log file, "Sneaky-Stuff.log" in the game's root directory.
-For Steam it's in: *C:\Program Files (x86)\Steam\steamapps\common\Helldivers 2\*
+If something happens to the console window, or the game closes or crashes, you can find what was printed to the console in the log file, `Sneaky-Stuff.log`.  
+If you want to report a bug or error, include the content of the log file.  
 
 ### AntiCheat Details
 **nProtect GameGuard in Helldivers 2** serves solely as anti-tamper software. Despite what it can do in other games, in HD2 it only attempts to preserve the integrity of the original code and prevent external software from accessing the process. It doesn't even check for foreign DLLs in the process.
