@@ -1,5 +1,9 @@
-# Helldivers 2 Sneaky Stuff by Igromanru
+# Currently Detected
+GameGuard blacklisted the tool on 03.09.2025.  
+All versions from 1.0 to 1.3 are detected.  
+If I’m motivated enough, I might do something about it.  
 
+# Helldivers 2 Sneaky Stuff by Igromanru
 ![Preview](https://i.imgur.com/8hfTsoB.png)
 
 ### Description
