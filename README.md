@@ -1,10 +1,5 @@
-# Currently Detected
-GameGuard blacklisted the tool on 03.09.2025.  
-All versions from 1.0 to 1.3 are detected.  
-If I’m motivated enough, I might do something about it.  
-
 # Helldivers 2 Sneaky Stuff by Igromanru
-![Preview](https://i.imgur.com/8hfTsoB.png)
+![Preview](https://i.imgur.com/z6e9XpH.png)
 
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
@@ -46,6 +41,7 @@ You can use any DLL injector that works for you to inject the **Helldivers-2-Sne
 If you want to be extra sneaky, use a manual map injector or a driver based manual map injector.
 
 ### Configuration file
+The `Settings.toml` file will be created in the `/Helldivers 2/bin/` directory if it doesn’t already exist, and it will be read from there.  
 In the **Settings.toml** configuration file, you can change the single-key hotkeys assigned to each feature. To disable certain features, you still need to use the hard-coded modifier CTRL + (hotkey).
 Hotkey values are Virtual-Key Codes, and can be assigned as either decimal or hex-decimal.  
 e.g.: `InfiniteHealthKey = 0x61` is the **Numpad 1** key.  
@@ -113,7 +109,7 @@ The feature has to be active while you finish typing the code into the extractio
 - Picked up resources are added to each player in the squad. It allows farming faster with more players, since each can pickup the same amount of stacks per mission.
 - Super Credits, Medals and Requisition Slips count to the same limit. Therefore, you might want to focus on one resource at a time.
 - Don't use any Boosters that upgrade/change the Resupply Pod, it might prevent it from dropping resources.
-- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). Just leave the mission and try another one.
+- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google "Super Credits Cheat Arrows" and install the mod via HD2 Arsenal. Or just leave the mission and try another one.  
 
 
 
@@ -165,8 +161,9 @@ You're not only risking your account, but also drawing attention to the exploit!
 ---
 
 ### Log file
-If something happens to the console window, or the game closes or crashes, you can find what was printed to the console in the log file, `Sneaky-Stuff.log`.  
-If you want to report a bug or error, include the content of the log file.  
+The `Sneaky-Stuff.log` file will be created and written in the `/Helldivers 2/bin/` directory.
+If something happens to the console window, or the game closes or crashes, you can find what was printed to the console in the log file.  
+If you want to report a bug or error, include the content of the latest log file.  
 
 ### AntiCheat Details
 **nProtect GameGuard in Helldivers 2** serves solely as anti-tamper software. Despite what it can do in other games, in HD2 it only attempts to preserve the integrity of the original code and prevent external software from accessing the process. It doesn't even check for foreign DLLs in the process.
@@ -177,3 +174,8 @@ There are no (GameGuard) bans. And until today, no bans for cheaters were report
 1. The tool doesn't bypass the nProtect GameGaurd AntiCheat protection! It relies on the incompetence of the anti-cheat to protect the process and on the fact that, in the worst-case scenario, it will just close the game if it detects something.
 2. I take no reposibility for any damage to your game or account. By using my tools, you accept the risk that even after all this time since release, the developers might change their approach at any moment and start applying penalties to accounts.
 3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and cheats from closed/premium communities. Just do your own research and don't ask me about it.
+
+### Detection
+On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
+Detection appears to be pattern-based and affects versions 1.0 to 1.3.  
+After some changes the v1.4 seems to be undetected, but there is a high probability that it will be added to the list in the future. That’s the fate of all public cheats.
