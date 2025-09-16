@@ -1,3 +1,7 @@
+# v1.4 is now detected as well
+### No more public releases
+**Stay tuned for more information here, where I’ll publish the next free, undetected version.**
+
 # Helldivers 2 Sneaky Stuff by Igromanru
 ![Preview](https://i.imgur.com/z6e9XpH.png)
 
