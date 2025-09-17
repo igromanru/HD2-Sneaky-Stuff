@@ -31,25 +31,25 @@ It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" f
 
 ## How to use
 Before you start, you have to unzip the files from the zip archive.
-Both **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** has to be in the same directory!
-If your AntiVirus doesn’t like it, disable it and add the directory where you unzipped the files to the exclusions list. It’s common for AV software to detect injectors.
+Both **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** has to be in the same directory!  
+If your AntiVirus doesn’t like it, disable the AntiVirus and add the directory where you unzipped the files to the exclusions list. It’s common for AV software to detect injectors as a malware.  
 
 ### Inject Automatically
 1. Load the game until you're in your ship
 2. Execute the **HD2-Sneaky-Stuff-Injector.exe** (you must have administrator rights on the Windows account)
-3. If the injection was successful, and you see the console window of Sneaky Stuff, you can close the window of the injector.
+3. If the injection was successful, and you'll see the console window of Sneaky Stuff
 4. Use hotkeys to enable features while the game or the Sneaky Stuff console is in the foreground.
 5. "Undetected" features can be disabled manually by pressing CTRL+[their assigned hotkey]. "Sneaky" disable themselves automatically. (See "*Sneaky" features and how to use them* section)
 6. (optional) Move the "HD2 Sneaky Stuff" console window to a second monitor to see what happens there while you're playing.
 
 ### Inject Manually (alternative)
-You can use any DLL injector that works for you to inject the **Helldivers-2-Sneaky-Stuff.dll**.
+You can use any DLL injector to inject **Helldivers-2-Sneaky-Stuff.dll** into the `helldivers2.exe`.  
 If you want to be extra sneaky, use a manual map injector or a driver based manual map injector.
 
 ### Configuration file
 The `Settings.toml` file will be created in the `/Helldivers 2/bin/` directory if it doesn’t already exist, and it will be read from there.  
-In the **Settings.toml** configuration file, you can change the single-key hotkeys assigned to each feature. To disable certain features, you still need to use the hard-coded modifier CTRL + (hotkey).
-Hotkey values are Virtual-Key Codes, and can be assigned as either decimal or hex-decimal.  
+In the **Settings.toml** configuration file, you can change the single-key hotkeys assigned to each feature. To disable certain features, you still need to use the hard-coded modifier CTRL + (hotkey).  
+Hotkey values are [Virtual-Key Codes](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes), and can be assigned as either decimal or hex-decimal.  
 e.g.: `InfiniteHealthKey = 0x61` is the **Numpad 1** key.  
 If you have a non-US keyboard layout (e.g. Russian, German, Chinese), just use google to find corresponding Virtual-Key Codes.  
 
@@ -63,11 +63,12 @@ Increase them at your own risk. You can play around with them, since the worst t
 "Undetected" features are like the name says, undetected. They can be activated and deactivated/restored at any time.
 
 ### Infinite Stratagems (Default Hotkey: Numpad 7)
-Prevents Stratagems to go into cooldown and decrease in quantity. Works only for your Stratagems. All others are visual only.
+Prevents Stratagems to go into cooldown and decrease in quantity. Works only for your Stratagems. All others are visual only.  
 For server sided stratagems like Resupply or SEAF Artillery, it works only if you're the host.
 
 ### Super Credits in Resupply Pod (Default Hotkey: F3)
-Replaces one of the slot in the Resupply Pod with a stack of Super Credits.
+Replaces second slot in the Resupply Pod with a stack of Super Credits.  
+Don't even ask, replacing all 4 slots with Super Credits doesn't work.  
 See the "Resupply Drops Information" section for more details.
 
 ### Medals in Resupply Pod (Default Hotkey: F4)
@@ -115,9 +116,8 @@ The feature has to be active while you finish typing the code into the extractio
 - Picked up resources are added to each player in the squad. It allows farming faster with more players, since each can pickup the same amount of stacks per mission.
 - Super Credits, Medals and Requisition Slips count to the same limit. Therefore, you might want to focus on one resource at a time.
 - Don't use any Boosters that upgrade/change the Resupply Pod, it might prevent it from dropping resources.
-- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google "Super Credits Cheat Arrows" and install the mod via HD2 Arsenal. Or just leave the mission and try another one.  
-
-
+- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google [Super Credits Cheat Arrows](https://rpghq.org/forums/viewtopic.php?t=3175) and install the mod via [HD2 Arsenal](https://www.nexusmods.com/helldivers2/mods/4664).  
+Or just leave the mission and try another one.  
 
 ### Medals, Requisitions and XP
 Getting all three is pretty easy by just starting level 10 Super Helldive difficulty and instant finishing the mission.
@@ -128,8 +128,6 @@ Getting all three is pretty easy by just starting level 10 Super Helldive diffic
 4. Activate "Instant Shuttle"
 5. Finish the code
 
-
-
 ### Samples
 Pretty much the same as with Medals, Requisitions and XP.
 
@@ -139,8 +137,6 @@ Pretty much the same as with Medals, Requisitions and XP.
 4. Pick up the sample
 5. Before extracting, make sure that the whole party doesn't have more than 99 samples (you can see it in the HUB)
 6. Use "Instant Complete Mission" and "Instant Shuttle" like described under "Medals, Requisitions and XP" section above to extract fast
-
-
 
 ### SC farming
 Read "Resupply Drops Information" above to understand the process.
@@ -181,7 +177,8 @@ There are no (GameGuard) bans. And until today, no bans for cheaters were report
 2. I take no reposibility for any damage to your game or account. By using my tools, you accept the risk that even after all this time since release, the developers might change their approach at any moment and start applying penalties to accounts.
 3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and cheats from closed/premium communities. Just do your own research and don't ask me about it.
 
-### Detection
+### Detections
 On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
-Detection appears to be pattern-based and affects versions 1.0 to 1.3.  
-After some changes the v1.4 seems to be undetected, but there is a high probability that it will be added to the list in the future. That’s the fate of all public cheats.
+Detection appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
+On about 16.09.2025 GG added v1.4.0 to the blacklist as well.  
+v1.4.1 is currently undetected.
