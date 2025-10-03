@@ -1,8 +1,6 @@
-# v1.4.0 is now detected
-**No more public releases**  
-To avoid (fast) detection, future releases will be distributed only privately on the Discord server.   
-<a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a>
-
+# Better tools for the job
+Since Zodiac released source of his Experimental Division Cheat Table, which contains a GameGuard Bypass, it's much easier and better to use it instead of Sneaky Stuff.  
+Here is a simple farming guide: [Helldivers 2 Farming Guide by Igromanru](https://github.com/igromanru/HD2-Farming-Guide) 
 
 # Helldivers 2 Sneaky Stuff by Igromanru
 ![Preview](https://i.imgur.com/z6e9XpH.png)
@@ -11,6 +9,10 @@ To avoid (fast) detection, future releases will be distributed only privately on
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
 It's a dll, that has to be injected into the game and all features are controlled by hotkeys.  
 It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" features can be active all the time, while the "Sneaky" features will disable themselves to avoid being caught by GameGuard. (Read the AntiCheat section for details)  
+
+## Releases
+To avoid (fast) detection, releases are distributed only privately on the Discord server.   
+<a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a>
 
 ## Features
 ### Undetected
@@ -175,7 +177,7 @@ There are no (GameGuard) bans. And until today, no bans for cheaters were report
 ### Disclaimer
 1. The tool doesn't bypass the nProtect GameGaurd AntiCheat protection! It relies on the incompetence of the anti-cheat to protect the process and on the fact that, in the worst-case scenario, it will just close the game if it detects something.
 2. I take no reposibility for any damage to your game or account. By using my tools, you accept the risk that even after all this time since release, the developers might change their approach at any moment and start applying penalties to accounts.
-3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and cheats from closed/premium communities. Just do your own research and don't ask me about it.
+3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and better features. Just do your own research and don't ask me about it.
 
 ### Detections
 On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
