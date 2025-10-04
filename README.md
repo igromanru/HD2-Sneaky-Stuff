@@ -1,5 +1,5 @@
 # Better tools for the job
-Since Zodiac released source of his [Experimental Division Cheat Table](https://www.unknowncheats.me/forum/downloads.php?do=file&id=51228), which contains a GameGuard Bypass, it's much easier and better to use it instead of Sneaky Stuff.  
+Since Zodiac released source of his Experimental Division Cheat Table, which contains a GameGuard Bypass, it's much easier and better to use it instead of Sneaky Stuff.  
 Here is a simple farming guide: [Helldivers 2 Farming Guide by Igromanru](https://github.com/igromanru/HD2-Farming-Guide) 
 
 # Helldivers 2 Sneaky Stuff by Igromanru
