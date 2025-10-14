@@ -5,6 +5,39 @@ Here is a simple farming guide: [Helldivers 2 Farming Guide by Igromanru](https:
 # Helldivers 2 Sneaky Stuff by Igromanru
 ![Preview](https://i.imgur.com/z6e9XpH.png)
 
+## Index
+- [Description](#description)
+- [Releases](#releases)
+- [Features](#features)
+  - [Undetected](#undetected)
+  - [Sneaky](#sneaky)
+  - [Video showcase](#video-showcase)
+- [How to use](#how-to-use)
+  - [Inject Automatically](#inject-automatically)
+  - [Inject Manually (alternative)](#inject-manually-alternative)
+  - [Configuration file](#configuration-file)
+- ["Undetected" features description](#undetected-features-description)
+  - [Infinite Stratagems (Default Hotkey: Numpad 7)](#infinite-stratagems-default-hotkey-numpad-7)
+  - [Super Credits in Resupply Pod (Default Hotkey: F3)](#super-credits-in-resupply-pod-default-hotkey-f3)
+  - [Medals in Resupply Pod (Default Hotkey: F4)](#medals-in-resupply-pod-default-hotkey-f4)
+- ["Sneaky" features and how to use them (Important information!)](#sneaky-features-and-how-to-use-them-important-information)
+  - [Pseudo Infinite Health (Default Hotkey: Numpad 1)](#pseudo-infinite-health-default-hotkey-numpad-1)
+  - [Pseudo Infinite Stamina (Default Hotkey: Numpad 2)](#pseudo-infinite-stamina-default-hotkey-numpad-2)
+  - [Speedhack (Default Hotkey: Numpad 3)](#speedhack-default-hotkey-numpad-3)
+  - [Collect X Samples (Default Hotkey: Numpad 4)](#collect-x-samples-default-hotkey-numpad-4)
+  - [Instant Complete Mission (host only) (Default Hotkey: Numpad 8)](#instant-complete-mission-host-only-default-hotkey-numpad-8)
+  - [Instant Shuttle (host only) (Default Hotkey: Numpad 9)](#instant-shuttle-host-only-default-hotkey-numpad-9)
+- [Farming section](#farming-section)
+  - [Resupply Drops Information](#resupply-drops-information)
+  - [Medals, Requisitions and XP](#medals-requisitions-and-xp)
+  - [Samples](#samples)
+  - [SC farming](#sc-farming)
+  - [Don't drop SC in public lobbies!](#dont-drop-sc-in-public-lobbies)
+- [Log file](#log-file)
+- [AntiCheat Details](#anticheat-details)
+- [Disclaimer](#disclaimer)
+- [Detections](#detections)
+
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
 It's a dll, that has to be injected into the game and all features are controlled by hotkeys.  
@@ -164,22 +197,22 @@ You're not only risking your account, but also drawing attention to the exploit!
 
 ---
 
-### Log file
+## Log file
 The `Sneaky-Stuff.log` file will be created and written in the `/Helldivers 2/bin/` directory.
 If something happens to the console window, or the game closes or crashes, you can find what was printed to the console in the log file.  
 If you want to report a bug or error, include the content of the latest log file.  
 
-### AntiCheat Details
+## AntiCheat Details
 **nProtect GameGuard in Helldivers 2** serves solely as anti-tamper software. Despite what it can do in other games, in HD2 it only attempts to preserve the integrity of the original code and prevent external software from accessing the process. It doesn't even check for foreign DLLs in the process.
 If GameGuard detects ".text" code changes or one of the blacklisted programs like Cheat Engine, it will only close the game, usually with a message.
 There are no (GameGuard) bans. And until today, no bans for cheaters were reported in any of HD2 related cheating communities.
 
-### Disclaimer
+## Disclaimer
 1. The tool doesn't bypass the nProtect GameGaurd AntiCheat protection! It relies on the incompetence of the anti-cheat to protect the process and on the fact that, in the worst-case scenario, it will just close the game if it detects something.
 2. I take no reposibility for any damage to your game or account. By using my tools, you accept the risk that even after all this time since release, the developers might change their approach at any moment and start applying penalties to accounts.
 3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and better features. Just do your own research and don't ask me about it.
 
-### Detections
+## Detections
 On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
 Detection appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
 On about 16.09.2025 GG added v1.4.0 to the blacklist as well.  
