@@ -65,9 +65,9 @@ To avoid (fast) detection, releases are distributed only privately on the Discor
 [![Showcase](https://img.youtube.com/vi/YSuHrW66k4E/0.jpg)](https://www.youtube.com/watch?v=YSuHrW66k4E)
 
 ## How to use
-Before you start, you have to unzip the files from the zip archive.
-Both **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** has to be in the same directory!  
-If your AntiVirus doesn’t like it, disable the AntiVirus and add the directory where you unzipped the files to the exclusions list. It’s common for AV software to detect injectors as a malware.  
+Before you start, I recommend disabling your antivirus first. All public DLL injectors are flagged as potentially dangerous software and will be removed by many antivirus programs.  
+Unzip **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** into the same directory.
+Add that entire directory to your antivirus exclusions, then you can re-enable it.
 
 ### Inject Automatically
 1. Load the game until you're in your ship
