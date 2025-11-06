@@ -45,6 +45,7 @@ It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" f
 
 ## Releases
 To avoid (fast) detection, releases are distributed only privately on the Discord server.   
+Make sure to read this documentation from beginning to end before asking questions in Discord that were answered here!  
 <a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a>
 
 ## Features
@@ -216,4 +217,5 @@ There are no (GameGuard) bans. And until today, no bans for cheaters were report
 On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
 Detection appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
 On about 16.09.2025 GG added v1.4.0 to the blacklist as well.  
-v1.4.1 is currently undetected.
+1.4.1 and newer versions are undetected.  
+The injector itself is detected, therefore it shouldn't stay open, until there were an error.  
