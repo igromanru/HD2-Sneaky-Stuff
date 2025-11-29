@@ -1,13 +1,8 @@
-# Better tools for the job
-Since Zodiac released source of his Experimental Division Cheat Table, which contains a GameGuard Bypass, it's much easier and better to use it instead of Sneaky Stuff.  
-Here is a simple farming guide: [Helldivers 2 Farming Guide by Igromanru](https://github.com/igromanru/HD2-Farming-Guide) 
-
 # Helldivers 2 Sneaky Stuff by Igromanru
 ![Preview](https://i.imgur.com/z6e9XpH.png)
 
 ## Index
 - [Description](#description)
-- [Releases](#releases)
 - [Features](#features)
   - [Undetected](#undetected)
   - [Sneaky](#sneaky)
@@ -37,16 +32,12 @@ Here is a simple farming guide: [Helldivers 2 Farming Guide by Igromanru](https:
 - [AntiCheat Details](#anticheat-details)
 - [Disclaimer](#disclaimer)
 - [Detections](#detections)
+- [Discord Server](#discord-server)
 
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
 It's a dll, that has to be injected into the game and all features are controlled by hotkeys.  
 It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" features can be active all the time, while the "Sneaky" features will disable themselves to avoid being caught by GameGuard. (Read the AntiCheat section for details)  
-
-## Releases
-To avoid (fast) detection, releases are distributed only privately on the Discord server.   
-Make sure to read this documentation from beginning to end before asking questions in Discord that were answered here!  
-<a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a>
 
 ## Features
 ### Undetected
@@ -219,3 +210,6 @@ Detection appears to be AOB pattern-based and affects versions 1.0 to 1.3, toget
 On about 16.09.2025 GG added v1.4.0 to the blacklist as well.  
 1.4.1 and newer versions are undetected.  
 The injector itself is detected, therefore it shouldn't stay open, until there were an error.  
+
+## Discord Server
+<a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a> 
