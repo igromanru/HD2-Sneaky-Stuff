@@ -31,7 +31,7 @@
 - [Log file](#log-file)
 - [AntiCheat Details](#anticheat-details)
 - [Disclaimer](#disclaimer)
-- [Detections](#detections)
+- [Detections History](#detections-history)
 - [Discord Server](#discord-server)
 
 ### Description
@@ -204,12 +204,13 @@ There are no (GameGuard) bans. And until today, no bans for cheating were report
 2. I take no reposibility for any damage to your game or account. By using my tools, you accept the risk that even after all this time since release, the developers might change their approach at any moment and start applying penalties to accounts.
 3. Infinite Stratagems with Resupply Pod drops is a very slow way to farm Super Credits. There are much better and faster ways to farm with a bypass and better features. Just do your own research and don't ask me about it.
 
-## Detections
-On 03.09.2025 GameGuard added detection for Helldivers 2 Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features).  
-Detection appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
-On about 16.09.2025 GG added v1.4.0 to the blacklist as well.  
-1.4.1 and newer versions are undetected.  
-The injector itself is detected, therefore it shouldn't stay open, until there were an error.  
+## Detections History
+On 03.09.2025 GameGuard added all versions of Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features) that were released on unknowncheats.me to their detection list.  
+Detections appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
+To test if they will keep up, I released a new undetected version of Sneaky Stuff, v1.4.0 on UC, which become detected on 16.09.2025.  
+I moved away from UC to distribute the tool privately on Discord, and since v1.4.1 the DLL has been undetected.    
+The injector itself remains detected, but unless there are errors, it injects the DLL into the game and closes itself, which happens too fast for GG to notice.  
 
 ## Discord Server
+Don't join if you haven't read the guide above. People who refuse to read but still ask for help aren't welcome!
 <a href="https://discord.gg/jmsAX8kjVJ"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a> 
