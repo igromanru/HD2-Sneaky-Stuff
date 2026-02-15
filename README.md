@@ -32,6 +32,7 @@
 - [AntiCheat Details](#anticheat-details)
 - [Disclaimer](#disclaimer)
 - [Detections History](#detections-history)
+- [My other work](#my-other-work)
 
 ### Description
 Helldivers 2 Sneaky Stuff is an advancement of [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features). I overcome many issues from "Undetected Features" tool by going internal.  
@@ -209,3 +210,6 @@ Detections appears to be AOB pattern-based and affects versions 1.0 to 1.3, toge
 To test if they will keep up, I released a new undetected version of Sneaky Stuff, v1.4.0 on UC, which become detected on 16.09.2025.  
 I moved away from UC to distribute the tool privately on Discord, and since v1.4.1 the DLL has been undetected.    
 The injector itself remains detected, but unless there are errors, it injects the DLL into the game and closes itself, which happens too fast for GG to notice.  
+
+## My other work
+[Helldivers 2 Farming Guide](https://github.com/igromanru/HD2-Farming-Guide)
