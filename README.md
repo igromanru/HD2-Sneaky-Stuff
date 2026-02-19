@@ -57,9 +57,9 @@ It contains two type of features, **Undetected** and **Sneaky**.  "Undetected" f
 [![Showcase](https://img.youtube.com/vi/YSuHrW66k4E/0.jpg)](https://www.youtube.com/watch?v=YSuHrW66k4E)
 
 ## How to use
-Before you start, I recommend disabling your antivirus first. All public DLL injectors are flagged as potentially dangerous software and will be removed by many antivirus programs.  
-Unzip **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** into the same directory.
-Add that entire directory to your antivirus exclusions, then you can re-enable it.
+Before you start, disable your antivirus first. All public DLL injectors are flagged as potentially dangerous software and will be removed by many antivirus programs.  
+Unzip **HD2-Sneaky-Stuff-Injector.exe** and **Helldivers-2-Sneaky-Stuff.dll** into the same directory.  
+Add that entire directory to your antivirus exclusions, then you can re-enable it. (Use google to find out how it works for your AntiVirus)
 
 ### Inject Automatically
 1. Load the game until you're in your ship
@@ -208,7 +208,8 @@ There are no (GameGuard) bans. And until today, no bans for cheating were report
 On 03.09.2025 GameGuard added all versions of Sneaky Stuff and [Helldivers 2 Undetected Features](https://github.com/igromanru/HD2-Undetected-Features) that were released on unknowncheats.me to their detection list.  
 Detections appears to be AOB pattern-based and affects versions 1.0 to 1.3, together with the injector.  
 To test if they will keep up, I released a new undetected version of Sneaky Stuff, v1.4.0 on UC, which become detected on 16.09.2025.  
-I moved away from UC to distribute the tool privately on Discord, and since v1.4.1 the DLL has been undetected.    
+I moved away from UC to distribute the tool privately on Discord, and since v1.4.1 the DLL has been undetected.   
+On 02 December 2025, I started to do releases again on GitHub (here), but it's still undetected. It looks like they only care about UC.    
 The injector itself remains detected, but unless there are errors, it injects the DLL into the game and closes itself, which happens too fast for GG to notice.  
 
 ## My other work
