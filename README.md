@@ -143,7 +143,7 @@ The feature has to be active while you finish typing the code into the extractio
 - Picked up resources are added to each player in the squad. It allows farming faster with more players, since each can pickup the same amount of stacks per mission.
 - Super Credits, Medals and Requisition Slips count to the same limit. Therefore, you might want to focus on one resource at a time.
 - Don't use any Boosters that upgrade/change the Resupply Pod, it might prevent it from dropping resources.
-- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google [Super Credits Cheat Arrows](https://rpghq.org/forums/viewtopic.php?t=3175) and install the mod via [HD2 Arsenal](https://www.nexusmods.com/helldivers2/mods/4664).  
+- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google [Super Credits Cheat Arrows](https://mods.rpghq.org/Helldivers%202/176522) and install the mod via [HD2 Arsenal](https://www.nexusmods.com/helldivers2/mods/4664).  
 Or just leave the mission and try another one.  
 
 ### Medals, Requisitions and XP
