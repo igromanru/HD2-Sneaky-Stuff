@@ -26,7 +26,7 @@
   - [Resupply Drops Information](#resupply-drops-information)
   - [Medals, Requisitions and XP](#medals-requisitions-and-xp)
   - [Samples](#samples)
-  - [SC farming](#sc-farming)
+  - [[Patched] SC farming](#patched-sc-farming)
   - [Don't drop SC in public lobbies!](#dont-drop-sc-in-public-lobbies)
 - [Log file](#log-file)
 - [AntiCheat Details](#anticheat-details)
@@ -138,16 +138,11 @@ The feature has to be active while you finish typing the code into the extractio
 
 ## Farming section
 ### Resupply Drops Information
-- In each mission, there is a **random** pick-up limit that applies to each player, 0-15. After the limit is reached, the server will stop adding picked up resources to players.
-- The limit is somehow related to the map size, mission type and terrain. The ideal map size is reached on difficulty 3, and overall difficulty 3 was the best for getting the most drops on average in the past (no idea how it's now).
-- Picked up resources are added to each player in the squad. It allows farming faster with more players, since each can pickup the same amount of stacks per mission.
-- Super Credits, Medals and Requisition Slips count to the same limit. Therefore, you might want to focus on one resource at a time.
-- Don't use any Boosters that upgrade/change the Resupply Pod, it might prevent it from dropping resources.
-- Sometimes the Super Credits model isn't loaded into the game and will appear as ? (question mark). You can fix it with a mod. Google [Super Credits Cheat Arrows](https://mods.rpghq.org/Helldivers%202/176522) and install the mod via [HD2 Arsenal](https://www.nexusmods.com/helldivers2/mods/4664).  
-Or just leave the mission and try another one.  
+Super Credits pick-up was patched with v6.2.2 (28.04.2026).  
+To my current knowledge it's not longer possible to pick-up Super Credits that weren't part of the mission.
 
 ### Medals, Requisitions and XP
-Getting all three is pretty easy by just starting level 10 Super Helldive difficulty and instant finishing the mission.
+Getting all three is pretty easy by just starting level 10 Super Helldiver difficulty and instant finishing the mission.
 
 1. Drop directly into the extraction zone
 2. Activate "Instant Complete Mission" feature
@@ -165,27 +160,9 @@ Pretty much the same as with Medals, Requisitions and XP.
 5. Before extracting, make sure that the whole party doesn't have more than 99 samples (you can see it in the HUB)
 6. Use "Instant Complete Mission" and "Instant Shuttle" like described under "Medals, Requisitions and XP" section above to extract fast
 
-### SC farming
-Read "Resupply Drops Information" above to understand the process.
-Farming Super Credits with features from this tool is fastest with a full party.
-I can't give you step-by-step instructions here since I don't know exactly which planets, mission types and difficulties are currently the best.
-But overall, what you have to do it:
-
-- Enable "Infinite Stratagems" and "Super Credits in Resupply Pod"
-- Go into difficulty 3 missions that are not in Mega Cities
-- Drop as fast you can 13 resupply pods for each player
-- Count how many stacks SC a player can pick up before it stops appearing on the UI
-- Let every player pick the exact amount of drops, while you finish dropping as many Resupply Pod as needed
-- Abort the missions
-- Repeat
-
-
-Find out for yourself which mission types and planet have highest drop rates.
-If somebody makes a guide on what’s best, I can add it here.
-
-### Don't drop SC in public lobbies!
-**Don't drop Super Credits, Medals or Requisition Slips with randoms in a mission.
-You're not only risking your account, but also drawing attention to the exploit!**
+### [Patched] SC farming
+Super Credits pick-up was patched with v6.2.2 (28.04.2026).  
+To my current knowledge it's not longer possible to pick-up Super Credits that weren't part of the mission.
 
 ---
 
