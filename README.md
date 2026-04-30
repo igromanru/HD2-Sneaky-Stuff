@@ -214,3 +214,7 @@ The injector itself remains detected, but unless there are errors, it injects th
 
 ## My other work
 [Helldivers 2 Farming Guide](https://github.com/igromanru/HD2-Farming-Guide)
+
+## Archived Discord Server
+The server is by now archived and I moved one from maintaining it, but there are still useful stuff there.
+<a href="https://discord.gg/SKbHMw5Npf"><img src='https://discordapp.com/api/guilds/1417474730906095626/widget.png?style=shield'></a>  
